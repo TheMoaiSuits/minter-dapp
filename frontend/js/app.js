@@ -36,7 +36,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     autoHeight: true,
   });
   
-  const splide2 = new Splide(".splide2", {
+  const splide2 = new Splide2(".splide2", {
     type: "loop",
     arrows: false,
     perMove: 1,
