@@ -36,17 +36,6 @@ window.addEventListener("DOMContentLoaded", async () => {
     autoHeight: true,
   });
 
-  new Splide(".splide2", {
-    type: "loop",
-    arrows: false,
-    perMove: 1,
-    pagination: false,
-    autoplay: true,
-    direction: 'ttb',
-    height: "calc(100vh - 90px)",
-    width: '30vw',
-    autoHeight: true,
-  });
   splide.mount();
 
   updateConnectStatus();
