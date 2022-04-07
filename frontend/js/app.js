@@ -35,6 +35,18 @@ window.addEventListener("DOMContentLoaded", async () => {
     width: '30vw',
     autoHeight: true,
   });
+  
+  const splide2 = new Splide(".splide2", {
+    type: "loop",
+    arrows: false,
+    perMove: 1,
+    pagination: false,
+    autoplay: true,
+    direction: 'ttb',
+    height: "calc(100vh - 90px)",
+    width: '30vw',
+    autoHeight: true,
+  });
 
   splide.mount();
 
