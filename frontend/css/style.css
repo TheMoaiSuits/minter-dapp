@@ -150,7 +150,7 @@ header .container {
   border: 6px solid var(--accent-color);
   box-shadow: var(--card-shadow);
   padding: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   opacity: 0;
   transform: translateX(100vw);
   transition: all 0.5s ease-in-out;
