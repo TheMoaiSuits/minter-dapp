@@ -10,12 +10,13 @@
   --font-code: "Poppins", monospace;
   --bg-color: hsl(184, 98%, 42%);
   --bg-color-transparent: hsla(184, 98%, 42%, 0.502);
+  --heading-font-color: hsl(206, 98%, 42%);
   --font-color: hsl(0, 0%, 100%);
   --btn-bg-color: hsl(96, 56%, 50%);
   --btn-font-color: hsl(0, 0%, 100%);
-  --accent-color: hsl(206, 98%, 42%);
-  --header-shadow: var(--accent-color) 0px 0px 5px;
-  --card-shadow: var(--accent-color) 0px 0px 20px;
+  --accent-color: hsl(184, 98%, 42%);
+  --header-shadow: var(--heading-font-color) 0px 0px 5px;
+  --card-shadow: var(--heading-font-color) 0px 0px 20px;
 }
 
 * {
@@ -48,7 +49,7 @@ body {
 /* HEADER */
 
 header {
-  background-color: var(--accent-color);
+  background-color: var(--heading-font-color-color);
   border-radius: 8px;
   border: 6px solid var(--bg-color);
   box-shadow: var(--header-shadow);
