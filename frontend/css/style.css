@@ -14,7 +14,7 @@
   --font-color: hsl(0, 0%, 100%);
   --btn-bg-color: hsl(96, 56%, 50%);
   --btn-font-color: hsl(0, 0%, 100%);
-  --accent-color: hsl(184, 98%, 42%);
+  --accent-color: hsl(206, 98%, 42%);
   --header-shadow: var(--heading-font-color) 0px 0px 5px;
   --card-shadow: var(--heading-font-color) 0px 0px 20px;
 }
@@ -49,7 +49,7 @@ body {
 /* HEADER */
 
 header {
-  background-color: var(--heading-font-color-color);
+  background-color: var(--heading-font-color);
   border-radius: 8px;
   border: 6px solid var(--bg-color);
   box-shadow: var(--header-shadow);
