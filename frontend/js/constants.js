@@ -7,6 +7,7 @@ const welcome_p = "A stunning, unique collection of NFT's, inspired by the myste
 const h1_presale_coming_soon = "The NFT Drop is Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
+const h2_presale_coming_soon = "Pre-Sale Minting Countdown";
 const h2_presale_mint = "Public Minting Countdown";
 const p_presale_coming_soon = "We are working extremely hard to ensure we launch the best NFT Collection we can so please stay tuned for daily updates!";
 const p_presale_mint_not_whitelisted = "We do not currently have you registered on our whitelist.. 😢";
