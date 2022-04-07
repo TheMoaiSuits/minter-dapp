@@ -329,19 +329,28 @@ section {
   z-index: -1;
 }
 
-.splide2 {
-  position: absolute;
-  top: 90px;
-  right: 0rem;
-  z-index: -1;
-}
-
 .splide__slide {
   border: var(--accent-color) solid;
   border-width: 5px 10px;
 }
 
 .splide__slide img {
+  width: 100%;
+}
+
+.splide2 {
+  position: absolute;
+  top: 90px;
+  right: 0rem;
+  z-index: -2;
+}
+
+.splide__slide2 {
+  border: var(--accent-color) solid;
+  border-width: 5px 10px;
+}
+
+.splide__slide2 img {
   width: 100%;
 }
 
