@@ -338,23 +338,6 @@ section {
   width: 100%;
 }
 
-.splide2 {
-  position: absolute;
-  top: 90px;
-  right: 0rem;
-  z-index: -2;
-}
-
-.splide__slide2 {
-  border: var(--accent-color) solid;
-  border-width: 5px 10px;
-}
-
-.splide__slide2 img {
-  width: 100%;
-}
-
-
 /* SPINNER */
 .dot-spin {
   position: absolute;
