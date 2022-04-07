@@ -1,9 +1,9 @@
 const contractAddress = "0x97d1641ED3926491B1b2aD0C56D345Fd4D55704F"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the Moai Suits NFT Collection!";
+const welcome_h1 = "Welcome to Moai Suits!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = "A stunning, unique collection of NFT's, inspired by the mysterious lands of the Moai. TMSC is a wonderfully unique, fun and humorous NFT Collection inspired by family, mystery, love as well as the world of business and culture. Created by Scott Drew.";
+const welcome_p = "A stunning, unique collection of NFT's, inspired by the mysterious lands of the Moai. TMSC is a wonderfully unique & humorous collection inspired by family, business and culture.";
 const h1_presale_coming_soon = "The NFT Drop is Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
