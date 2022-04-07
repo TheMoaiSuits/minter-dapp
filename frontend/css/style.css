@@ -30,7 +30,7 @@ body {
   border: 6px solid var(--accent-color);
   display: flex;
   flex-flow: column;
-  height: 110vh;
+  height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
 }
