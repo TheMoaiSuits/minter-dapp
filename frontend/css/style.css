@@ -12,7 +12,7 @@
   --bg-color-transparent: hsla(184, 98%, 42%, 0.502);
   --font-color: hsl(0, 0%, 100%);
   --btn-bg-color: hsl(96, 56%, 50%);
-  --accent-color: hsl(0, 0%, 100%);
+  --accent-color: hsl(206, 98%, 42%);
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
