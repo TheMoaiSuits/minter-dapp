@@ -15,10 +15,10 @@ const p_presale_mint_whitelisted = "Congratulations! You are now confirmed as an
 const p_presale_mint_already_minted = "You have already claimed your spot on our whitelist mint. Thank you for your support!";
 const p_public_mint = "No whitelist needed. The highly anticipated Moai Suits Collection is now open for public minting!";
 const button_presale_coming_soon = "Join our Whitelist!";
-const button_presale_mint_whitelisted = "Mint your TMSC NFT";
+const button_presale_mint_whitelisted = "Mint your NFT";
 const button_presale_mint_not_whitelisted = "Join our Whitelist!";
 const button_presale_already_minted = "Join our Community";
-const button_public_mint = "Mint your TMSC NFT";
+const button_public_mint = "Mint your NFT";
 const mint_failed = "Minting failed. 😢 Please try again.";
 
 const abi = [
