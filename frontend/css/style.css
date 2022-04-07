@@ -12,6 +12,7 @@
   --bg-color-transparent: hsla(184, 98%, 42%, 0.502);
   --font-color: hsl(0, 0%, 100%);
   --btn-bg-color: hsl(96, 56%, 50%);
+  --btn-font-color: hsl(0, 0%, 100%);
   --accent-color: hsl(206, 98%, 42%);
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
@@ -103,7 +104,7 @@ header .container {
   display: inline-block;
   padding: 1rem 2rem;
   background: var(--btn-bg-color);
-  color: var(--accent-color);
+  color: var(--btn-font-color);
   font-family: var(--font-secondary);
   font-style: italic;
   font-weight: bold;
