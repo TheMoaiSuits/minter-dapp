@@ -189,6 +189,7 @@ async function loadInfo() {
   } else if (presaleMintActive) {
     startTime = window.info.runtimeConfig.publicMintStart;
     mainHeading.innerText = h1_presale_mint;
+    subHeading.innerText = h2_presale_mint;
     
     try {
       // CHECK IF WHITELISTED
@@ -215,6 +216,7 @@ async function loadInfo() {
   } else {
     startTime = window.info.runtimeConfig.presaleMintStart;
     mainHeading.innerText = h1_presale_coming_soon;
+    subHeading.innerText = h2_presale_coming_soon;
     mainText.innerText = p_presale_coming_soon;
     actionButton.innerText = button_presale_coming_soon;
   }
