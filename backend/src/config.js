@@ -65,7 +65,7 @@ const ROYALTY_SHARE = 2500; // Percentage of the token price that goes to the ro
 const ROYALTY_ADDRESS = "0xCB4E7594914A51d218825147720739157Cafbd72"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = [""]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0xCB4E7594914A51d218825147720739157Cafbd72"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
@@ -74,7 +74,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Be the very first to own your exclusive member of the Moai Suits NFT Collection!"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmNfjirD3PVDG98fYNxxRAqbViQ3MorSknRX4cBrJHnneE?filename=Reveal-1.png"
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeiaet5xpynr47rsq7fwfzpdbqa3ce3dphj2roizcojotlcxovza6oi"
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
