@@ -362,7 +362,7 @@ section {
   .not-connected {
     background-color: var(--bg-color-transparent);
     border-radius: 5px;
-    padding: 2rem;
+    padding: 3rem;
     margin: 0 auto;
   }
   .countdown ul {
