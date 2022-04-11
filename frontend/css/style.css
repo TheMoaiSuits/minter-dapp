@@ -39,7 +39,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 950px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2rem 5rem;
   justify-content: center;
@@ -50,7 +50,7 @@ body {
 
 header {
   background-color: var(--heading-font-color);
-  border-radius: 6px;
+  border-radius: 4px;
   border: 6px solid var(--bg-color);
   box-shadow: var(--header-shadow);
 }
