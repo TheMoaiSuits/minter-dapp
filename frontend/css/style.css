@@ -41,7 +41,7 @@ body {
   flex-direction: column;
   max-width: 100px;
   margin: 0 auto;
-  padding: 3rem 4rem;
+  padding: 2rem 3rem;
   justify-content: center;
   overflow: hidden;
 }
