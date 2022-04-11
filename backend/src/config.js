@@ -57,10 +57,10 @@ const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MAT
 const TOKENS_PER_MINT = 20; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-04-09T17:00:00+02:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-04-30T17:00:00+02:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-04-20T17:00:00+02:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 2500; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xCB4E7594914A51d218825147720739157Cafbd72"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
@@ -74,7 +74,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Be the very first to own your exclusive member of the Moai Suits NFT Collection!"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmbNmeZFU9KDipYGXo8M8U25bqEKPqiaHRrSVfU1DbSv2X?filename=Reveal%201.jpg"
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmNfjirD3PVDG98fYNxxRAqbViQ3MorSknRX4cBrJHnneE?filename=Reveal-1.png"
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
