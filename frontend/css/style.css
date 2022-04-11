@@ -39,7 +39,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 850px;
+  max-width: 950px;
   margin: 0 auto;
   padding: 2rem 3rem;
   justify-content: center;
