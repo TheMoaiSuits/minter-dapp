@@ -50,7 +50,7 @@ body {
 
 header {
   background-color: var(--heading-font-color);
-  border-radius: 8px;
+  border-radius: 6px;
   border: 6px solid var(--bg-color);
   box-shadow: var(--header-shadow);
 }
