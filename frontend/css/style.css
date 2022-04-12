@@ -72,10 +72,11 @@ header .container {
   align-items: center;
   height: 1000%;
   text-align: center;
-  margin: 0 auto 0 17.0vw;
+  margin: 0 auto 17.0vw;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
+  padding: 1rem 0.1rem;
 }
 
 .show-not-connected {
