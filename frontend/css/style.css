@@ -70,7 +70,7 @@ header .container {
 /* NOT CONNECTED */
 .not-connected {
   align-items: center;
-  height: 200%;
+  height: 300%;
   text-align: center;
   margin: 0 auto 0 17.0vw;
   opacity: 0;
@@ -111,7 +111,7 @@ header .container {
   width: 300px;
   height: 300px;
   align-items: center;
-  margin: 0 auto 0 21.0vw;
+  margin: 0 auto 0 18.0vw;
 }
 
 .not-connected a {
