@@ -72,7 +72,7 @@ header .container {
   align-items: center;
   height: 1000%;
   text-align: center;
-  margin: 15vw auto 0 17.0vw;
+  margin: 0 auto 0 17.0vw;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
@@ -81,7 +81,6 @@ header .container {
 .show-not-connected {
   opacity: 1;
   transform: translateY(0);
-  height: 1000%;
 }
 
 .not-connected h1 {
@@ -89,6 +88,7 @@ header .container {
   text-shadow: 1.8px 1.8px 0 var(--font-color);
   font-size: 3.0rem;
   padding: 0.5rem 0.5rem;
+  margin-top: 15vw;
 }
 
 .not-connected h2 {
