@@ -80,7 +80,7 @@ header .container {
 
 .show-not-connected {
   opacity: 1;
-  transform: translateY(25);
+  transform: translateY(0);
 }
 
 .not-connected h1 {
@@ -88,7 +88,6 @@ header .container {
   text-shadow: 1.8px 1.8px 0 var(--font-color);
   font-size: 3.0rem;
   padding: 0.5rem 0.5rem;
-  transform: translateY(5vh);
 }
 
 .not-connected h2 {
@@ -96,7 +95,6 @@ header .container {
   text-shadow: 1.8px 1.8px 0 var(--accent-color);
   font-style: italic;
   font-size: 1.6rem;
-  transform: translateY(2.5vh);
 }
 
 .not-connected p {
