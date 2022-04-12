@@ -88,7 +88,7 @@ header .container {
   text-shadow: 1.8px 1.8px 0 var(--font-color);
   margin: 0.2rem 0;
   font-size: 3.0rem;
-  padding: 0.5rem 0.5rem;
+  padding: 0.8rem 0.5rem;
 }
 
 .not-connected h2 {
@@ -103,6 +103,14 @@ header .container {
   font-family: var(--font-secondary);
   line-height: 2.0;
   padding: 1rem 7.5rem;
+}
+
+.moaihome {
+  background-image: url(/images/x-icon/Moai-Home-Logo.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  align-items: center
 }
 
 .not-connected a {
