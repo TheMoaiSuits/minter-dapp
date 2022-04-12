@@ -110,7 +110,7 @@ header .container {
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
-  align-items: center
+  align-items: center;
 }
 
 .not-connected a {
