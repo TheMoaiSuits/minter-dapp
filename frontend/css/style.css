@@ -8,7 +8,7 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Poppins", serif;
   --font-code: "Poppins", monospace;
-  --bg-color: hsl(184, 98%, 42%);
+  --bg-color: hsl(184, 63%, 58%);
   --bg-color-transparent: hsla(184, 98%, 42%, 0.502);
   --heading-font-color: hsl(206, 98%, 42%);
   --font-color: hsl(0, 0%, 100%);
@@ -85,11 +85,17 @@ header .container {
 
 .not-connected h1 {
   color: var(--accent-color);
-  text-shadow: 3px 3px 0 var(--btn-bg-color);
-  font-style: italic;
+  text-shadow: 1.8px 1.8px 0 var(--font-color);
   margin: 2rem 0;
-  font-size: 3.2rem;
-  padding: 1rem;
+  font-size: 3.0rem;
+  padding: 1.5rem 0.5rem;
+}
+
+.not-connected h2 {
+  color: var(--accent-color);
+  text-shadow: 1.8px 1.8px 0 var(--font-color);
+  font-style: italic;
+  font-size: 2.0rem;
 }
 
 .not-connected p {
