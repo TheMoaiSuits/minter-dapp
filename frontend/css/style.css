@@ -72,7 +72,7 @@ header .container {
   align-items: center;
   height: 100%;
   text-align: center;
-  margin: 0 auto 0 17.2vw;
+  margin: 0 auto 0 17.0vw;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
@@ -86,16 +86,16 @@ header .container {
 .not-connected h1 {
   color: var(--accent-color);
   text-shadow: 1.8px 1.8px 0 var(--font-color);
-  margin: 2rem 0;
+  margin: 1rem 0;
   font-size: 3.0rem;
   padding: 1.5rem 0.5rem;
 }
 
 .not-connected h2 {
-  color: var(--accent-color);
-  text-shadow: 1.8px 1.8px 0 var(--font-color);
+  color: var(--font-color);
+  text-shadow: 1.8px 1.8px 0 var(--accent-color);
   font-style: italic;
-  font-size: 2.0rem;
+  font-size: 1.6rem;
 }
 
 .not-connected p {
