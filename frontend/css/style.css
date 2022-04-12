@@ -84,17 +84,19 @@ header .container {
 }
 
 .not-connected h1 {
-  text-shadow: 3px 3px 0 var(--accent-color);
+  color: var(--accent-color);
+  text-shadow: 3px 3px 0 var(--font-color);
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.2rem;
+  padding: 1rem;
 }
 
 .not-connected p {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
   line-height: 2.0;
-  padding: 2rem 5rem;
+  padding: 2rem 6.5rem;
 }
 
 .not-connected a {
