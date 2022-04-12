@@ -86,9 +86,8 @@ header .container {
 .not-connected h1 {
   color: var(--accent-color);
   text-shadow: 1.8px 1.8px 0 var(--font-color);
-  margin: 3rem 0;
   font-size: 3.0rem;
-  padding: 2.5rem 0.5rem;
+  padding: 0.5rem 0.5rem;
 }
 
 .not-connected h2 {
